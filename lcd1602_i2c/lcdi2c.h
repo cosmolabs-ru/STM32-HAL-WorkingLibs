@@ -22,6 +22,6 @@ void LCD_SendCommand(uint8_t lcd_addr, uint8_t cmd);
 void LCD_SendData(uint8_t lcd_addr, uint8_t data);
 void LCD_Init(uint8_t lcd_addr);
 void LCD_SendString(uint8_t lcd_addr, char *str);
-
+void LCD_GotoXY(uint8_t x, uint8_t y);
 
 #endif /* LCDI2C_H_ */
